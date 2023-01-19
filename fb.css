@@ -1,14 +1,14 @@
 body{
 }
-.container-fluid{
+body .container-fluid{
     display: flex;
     height: 100vh;
-    border: 3px solid red;
     justify-content: center;
     align-items: center;
     padding: 0;
     margin: 0;
-    background-color: rgb(216, 216, 216);
+    background-color: rgb(216, 216, 216); 
+   
 }
 
 .profile
@@ -19,24 +19,27 @@ body{
 }
 
 ul {
-    justify-content: center;
-    flex-direction:column ;
-    list-style-type: none; 
+    /* display: block; */
+    /* justify-content: center; */
+    /* flex-direction:column ; */
+    /* list-style-type: none;  */
     /* border: 3px solid blue; */
-    margin: 0px;
-    width: 70%;
-    border-radius: 10px;
-    background-color: #fff;
-    box-shadow: 2px 4px 20px ;
-    height: 100%;
+    /* margin: auto; */
+  
+    /* height: 100%; */
     
     
     
 }
 
-.container{
+body .container{
     align-items: center;
     justify-content: center;
+    background-color: aqua;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 2px 4px 20px ;
 }
 
 ul li{
@@ -81,7 +84,7 @@ ul li input{
 }
 .btn-create{
     margin:auto;
-    height: 43px;
+    /* height: 43px; */
     border-radius: 6px;
     background-color: #42b72a;
     border: none;
@@ -121,4 +124,7 @@ ul li input{
 }
 Input:focus{
     outline: 2px solid #1361c7;
+}
+header .container-fluid{
+    background-color: #39a024;
 }
